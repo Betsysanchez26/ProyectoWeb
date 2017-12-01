@@ -2,15 +2,22 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Login</title>
-        <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
+        <title>Nuevo Post</title>
         <link rel="stylesheet" href="css/estilos.css">
 
     </head>
-     <body>
-        <header class="header">
+     <body class="cuerpoLog">
+        <logo class="logo">
+            <a href="index.html">
+        <img src="img/gamer_logo-iloveimg-resized.png"></a></logo>
+         <header class="header">
             <div class="contenedor">
-                <h1 class="logo">Nuevos</h1>
+                <h1 class="logo">Añadir un nuevo post</h1>
             </div>
         </header>
+         <form class="formaNuevo">
+         <h3>Titulo</h3><input type="text" placeholder="Titulo del post ">
+         <h3>Contenido</h3><textarea name="contenido" placeholder="Contenido del post "></textarea>
+             <input type="button" value="Publicar" id="boton">
+         </form>
     </body>

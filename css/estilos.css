@@ -1,34 +1,87 @@
-/*@import url('https://fonts.googleapis.com/css?family=Anton');*/
-h1{
-    padding: 0;
-    font-family:sans-serif;
-    font-size: 25px;
-}
-body{
-    font-size-adjust: auto;
-    color: bisque;
-    background-image: url(../img/control.png);
-    background-position: bottom;
-}
-.header{
-    background-color: burlywood;
-    color: brown;
-    text-align: left;
+.cuerpo{
+
+    background-color: #174c6e;
+    text-align: center;
 }
 .fondo{
     position: fixed;
+    right:0;
     bottom: 0;
+    left: 0;
     width: 100%;
-    padding: 20px;
-    margin: 30px;
-    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: bisque;
     text-align: center;
 }
 
+/*LOGIN*/
+.cuerpoLog{
 
-
-.fondo con{
+    background-color: #174c6e;
     text-align: center;
-    color: aqua;
 }
+.form{
+    background-color: #e6eaec;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+
+
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#boton{
+    background-color:#566d7c ;
+    color: aliceblue;
+    font-size: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+}
+header{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.logo{
+    align-content: space-between;
+}
+/*NUEVO*/
+.cuerpoNuevo{
+    background-color:#174c6e;
+}
+.formaNuevo{
+    background-color: darkgray;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+textarea{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+    font-family: sans-serif ;
+    font-size: 17px;
+}
+h3{
+    text-align: left;
+}
+/*ACERCA DE*/
+.cuerpoAcerca{
+    background-color: #174c6e
+}
+h4{
+    padding: 40px;
+    margin: 50px;
+    font-family:sans-serif;
+    font-size: 25px;
+    background-color: dimgrey;
+    font-style: oblique;
+}
+
 
