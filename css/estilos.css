@@ -1,7 +1,9 @@
 .cuerpo{
 
     background-color: #174c6e;
-    text-align: center;
+}
+#cuerpo{
+	cursor: pointer;
 }
 .fondo{
     position: fixed;
