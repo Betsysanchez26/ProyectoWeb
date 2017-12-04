@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Registrarse</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script type="text/javascript" src="js/Registro.js"></script>
 
     </head>
      <body class="cuerpoLog">
@@ -14,11 +15,11 @@
                 <h1 class="logo">Registrate</h1>
         </header>
          <form class="form">
-         <input type="email" name="eMail" placeholder="Email">
-         <input type="text" name="usuario" placeholder="Usuario">
-         <input type="password" name="contraseña" placeholder="Contraseña">
-         <input type="password" name="contraseña2" placeholder="Confirmar contraseña">
-         <input type="button" id="boton" value="Registarse">
+         <input type="email" name="eMail" id="email" placeholder="Email">
+         <input type="text" name="usuario" id="user" placeholder="Usuario">
+         <input type="password" name="contraseña" id="pass" placeholder="Contraseña">
+         <input type="password" name="contraseña2" id="passConfirm" placeholder="Confirmar contraseña">
+         <input type="button" id="boton" value="Registarse" Onclick="registrar()">
              </form>
     </body>
 </html>
