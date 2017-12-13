@@ -16,7 +16,9 @@
     background-color: bisque;
     text-align: center;
 }
-
+iframe{
+    align-content: flex-end;
+}
 /*LOGIN*/
 .cuerpoLog{
 
@@ -86,4 +88,20 @@ h4{
     font-style: oblique;
 }
 
-
+/*SCRUM*/
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+caption,p{
+    font-size: 26px;
+    font-style: normal;
+    background-color:#174c6e;
+    color: white;
+}
+td,th{
+    border: 1px solid black;
+}
+th{
+    background-color: cadetblue;
+}
